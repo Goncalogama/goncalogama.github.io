@@ -1,15 +1,15 @@
 /* Include TTF Font for Paragraphs */
 @font-face {
     font-family: 'Lora';
-    src: url('path/to/Lora-Regular.ttf') format('truetype');
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Lora-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 /* Include OTF Font for Block Quotes or Highlighted Text */
 @font-face {
-    font-family: 'Merriweather';
-    src: url('path/to/Merriweather-Regular.otf') format('opentype');
+    font-family: 'PlayfairDisplay';
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/PlayfairDisplay-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +29,6 @@
     font-weight: 700;
 }
 
-/* Apply fonts to elements */
 body {
     font-family: 'Lora', serif; /* TTF font for body text */
 }
