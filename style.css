@@ -1,15 +1,42 @@
+/* Include TTF Font for Paragraphs */
+@font-face {
+    font-family: 'Lora';
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Include OTF Font for Block Quotes or Highlighted Text */
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/PlayfairDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Caveat Font in WOFF and WOFF2 */
 @font-face {
     font-family: 'Caveat';
     src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Regular.woff2') format('woff2'),
          url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Regular.woff') format('woff');
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Caveat';
     src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Bold.woff2') format('woff2'),
          url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Bold.woff') format('woff');
     font-weight: 700;
 }
+
 body {
-    font-family: 'Caveat', cursive;
+    font-family: 'Lora', serif; /* TTF font for body text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caveat', cursive; /* Caveat for headers */
+}
+
+blockquote {
+    font-family: 'Merriweather', serif; /* OTF font for block quotes */
 }
