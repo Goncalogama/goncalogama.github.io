@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Caveat';
-    src: url('Caveat-Regular.woff2') format('woff2'),
-         url('Caveat-Regular.woff') format('woff');
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Regular.woff2') format('woff2'),
+         url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Regular.woff') format('woff');
     font-weight: 400;
 }
 @font-face {
     font-family: 'Caveat';
-    src: url('Caveat-Bold.woff2') format('woff2'),
-         url('Caveat-Bold.woff') format('woff');
+    src: url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Bold.woff2') format('woff2'),
+         url('https://github.com/Goncalogama/goncalogama.github.io/raw/main/Caveat-Bold.woff') format('woff');
     font-weight: 700;
 }
 body {
